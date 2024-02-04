@@ -1,0 +1,15 @@
+/* styles.css */
+.menuItem {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: white;
+  }
+  
+  .menuItem:hover:not(:first-child) {
+    background: linear-gradient(to right, #1f58d4, #01dbdf);
+    color: #333;
+  }
+  

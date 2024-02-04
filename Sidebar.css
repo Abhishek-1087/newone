@@ -1,0 +1,9 @@
+Sidebar.css
+.sidebar-hover {
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-hover:hover {
+  background-color: white;
+}
